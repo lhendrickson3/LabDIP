@@ -8,6 +8,6 @@ package dip.lab2.student.solution1;
  *
  * @author User
  */
-public class TipCalculator {
+public interface TipCalculator {
     
 }
