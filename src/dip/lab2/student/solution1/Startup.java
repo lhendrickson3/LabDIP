@@ -29,7 +29,8 @@ public class Startup {
         BaggageServiceTipCalculator service =
                 new BaggageServiceTipCalculator(
                 BaggageServiceTipCalculator.ServiceQuality.FAIR,5);
-        
+     
+        System.out.println(service.getTipForBaggeHandler());
     }
 
 }
